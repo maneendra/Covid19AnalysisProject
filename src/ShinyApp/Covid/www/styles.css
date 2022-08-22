@@ -1,0 +1,327 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+  width: 100%;
+  height: 100%;
+  background: #00001e;
+}
+
+.title{
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: "Montserrat";
+  text-align: center;
+  width: 100%;
+}
+
+.title-images {
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%) translateY(0);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#fin-img {
+    padding: 6px;
+    background-color: aliceblue;
+    max-height: 70px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#fin-img>img {
+    max-height: 65px;
+}
+
+#dscr-img{
+  padding-right:10px;
+}
+
+#dscr-img>img {
+    max-height: 150px;
+}
+
+h1{
+   
+   
+  position: relative;
+  color: #EEEEEE;
+  font-weight: 600;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  text-shadow: 0 0 30px #000155;
+}
+span{
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  color: #BBB;
+}
+h3{
+  font-weight: 200;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  color: #EEEEEE;
+  letter-spacing: 2px;
+  text-shadow: 0 0 30px #000155;
+}
+.title_container{
+  height:500px;
+}
+
+a{
+  font-size:17px;
+  color:white;
+}
+
+.tabbable {
+    /*height: 97vh;*/
+    color: white;
+}
+
+.data-panel{
+  height:calc(94vh - 16px) ;
+  padding-top:30px;
+}
+
+#globe {
+    height: calc(90vh - 385px) !important;
+}
+
+#globe>canvas{
+    /*height: calc(90vh - 360px) !important;*/
+}
+
+#predictor-side-panel{
+  text-align: -webkit-center;
+}
+
+#predictor-side-panel-twitter{
+  text-align: -webkit-center;
+  background:#00001e;
+}
+
+.shiny-input-container:not(.shiny-input-container-inline) {
+    width: 80%;
+}
+
+.row{
+  margin-left:0;
+  margin-right:0;
+}
+
+.right-bottom {
+    margin-top: 20px;
+}
+
+.right-bottom>div {
+    height: calc(80vh - 400px);
+    overflow: auto;
+}
+
+.plot-wraper{
+  border-radius: 20px;
+    overflow: hidden;
+}
+
+.selectize-control.single .selectize-input:after {
+    border-color: white transparent transparent transparent;
+}
+
+.selectize-input{
+  background-color: black !important;
+  color: white;
+}
+
+#timeline {
+    background-color: aliceblue;
+}
+
+#timeline-header{
+  margin-bottom:10px;
+  font-size:17px;
+}
+
+.well{
+  background-color:#00001e !important;
+}
+
+.radioSelect{
+	font-size:17px;
+	color:#00001e;
+}
+
+p{
+  font-size:30px;
+  color:white;
+}
+
+.boxed {
+  border: 1px solid white ;
+  border-radius:10px;
+  font-size:17px;
+  padding:10px;
+  overflow:hidden;
+}
+
+
+#motivation-container>div {
+    font-size: 17px;
+    overflow: auto;
+    height: 32vh;
+}
+
+.timeline-plot{
+  margin-top:20px;
+}
+
+#tweet_plot>img {
+  width: 100%;
+}
+.timeline-wrapper {
+  height: calc( 88vh - 170px);
+  overflow:auto;
+  border-radius:10px;
+}
+
+.twitter-plot{
+  margin-top:20px;
+}
+.video-column {
+    display: flex;
+    justify-content: flex-end;
+}
+#video-container {
+    height: 315px;
+    width: 560px;
+}
+
+iframe {
+    height: 98%;
+    width: -webkit-fill-available;
+}
+
+.research-question {
+    height: calc(80vh - 380px);
+    overflow: auto;
+}
+
+.research-question-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.refrences-panel{
+  overflow:auto;
+}
+
+#predictor-description{
+  font-size:17px;
+  overflow:auto;
+}
+
+.patient-plot{
+  margin-top:20px;
+}
+
+.patient-caption {
+    height: calc(80vh - 450px);
+    margin-top: 15px;
+    font-size: 17px;
+    overflow: auto;
+}
+
+.patient-caption>div,
+#predictor-description,
+#timeline-header{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.main-body>.tabbable>.nav>li>a{
+  font-size:18px;
+}
+.main-body>.tabbable>.nav>li.active>a{
+  background-color: #337ab7;
+  border-color: #337ab7;
+  color: white;
+}
+.main-body>.tabbable>.nav{
+border-bottom: 2px solid #337ab7;
+}
+
+.final-analysis{
+  font-size:17px;
+  overflow:auto;
+}
+
+.final-analysis-content {
+    height: 80vh;
+    overflow:auto;
+}
+.final-analysis-content>p {
+  font-size:17px;
+}
+
+.resources-content {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dataset-content {
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-link{
+  border:1px solid white;
+  border-radius: 5px;
+  padding:10px;
+  margin:10px;
+}
+
+.data-link>a {
+    display: block;
+}
+
+.references-content{
+  overflow:auto;
+}
+
+#r-logo{
+  border-radius:150px;
+}
+
+#git-logo {
+    background: aliceblue;
+    padding: 20px;
+    border-radius: 300px;
+}
+  
+@media screen and (max-width: 1350px) {
+#casesPlot {
+    height: 300px !important;
+}
+.right-bottom>div {
+    height: calc(80vh - 350px);
+    overflow: auto;
+}
+}
